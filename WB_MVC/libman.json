@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "font-awesome@5.12.1",
+      "destination": "wwwroot/lib/font-awesome/"
+    },
+    {
+      "provider": "jsdelivr",
+      "library": "bs-custom-file-input@1.3.2",
+      "destination": "wwwroot/lib/bs-custom-file-input/"
+    },
+    {
+      "library": "bs-custom-file-input@1.3.4",
+      "destination": "wwwroot/js/bs-custom-file-input/",
+      "files": [
+        "bs-custom-file-input.js.map",
+        "bs-custom-file-input.js",
+        "bs-custom-file-input.min.js",
+        "bs-custom-file-input.min.js.map"
+      ]
+    }
+  ]
+}
